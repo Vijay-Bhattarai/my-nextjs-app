@@ -1,0 +1,42 @@
+/* Reset default browser styles */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Example: Set a global font */
+}
+
+/* Apply box-sizing border-box globally */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Global styles for headings */
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Global styles for links */
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+/* Custom utility classes */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media query example */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Example: Adjust font size for smaller screens */
+  }
+}
